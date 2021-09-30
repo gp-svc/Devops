@@ -1,5 +1,6 @@
 - create git account
 - create repo in web console
+- install git bash (if you are using windows) - by default git will be installed in Linux os
 generate the ssh keys
 push your id_rsa.pub to git account
 clone the repos which you have created in console
