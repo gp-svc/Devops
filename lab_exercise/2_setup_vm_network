@@ -1,0 +1,6 @@
+- optional
+- create NAT network
+- attach the NAT network to the Virtual box hosts
+- do port forward for the host with (base host)22 to 22(guest host) with the right IP
+- do port forward for the host with (base host)8080 to 80(guest host) with the right IP
+- try to take SSH from your windows host

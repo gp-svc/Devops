@@ -1,0 +1,9 @@
+- Download Virtual Box
+- Download Centos
+- Install Virtual Box and Configure Centos VM with custom lvm partition (optional)
+- Update VM host with latest security patches
+- Install VM extension pack
+- Install VM drivers if GUI (optional)
+- Take snapshot in Virtual Box
+
+Ref : https://github.com/gp-svc/notes/blob/main/mynotes

@@ -1,0 +1,26 @@
+cd
+pwd
+ls
+ll
+whoami
+w
+uptime
+top
+ps -eaf
+free
+df -h
+ssh-keygen
+ssh to other host
+identify hidden files and folder
+find command
+rm ####### careful on this command
+yum clean all
+yum list all
+yum install <pkg name>
+ rpm -qa
+
+ cat
+ grep
+
+#how to get the os details
+telnet

@@ -1,0 +1,4 @@
+install httpd service
+start the service
+check the logs
+ensure that, service start accepting traffic from outside of the box

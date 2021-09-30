@@ -1,0 +1,8 @@
+- create git account
+- create repo in web console
+generate the ssh keys
+push your id_rsa.pub to git account
+clone the repos which you have created in console
+add new files
+add the file using git command in your local
+push the changes
