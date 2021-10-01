@@ -7,3 +7,12 @@ clone the repos which you have created in console
 add new files
 add the file using git command in your local
 push the changes
+
+
+
+- create 2 different git account or ask your friend to create git project in git porta
+- create code in your friend git account
+- create fork to your friend repository
+- do the necessary changes
+- create PR from your account to your friend account
+- ask your friend to approve the changes or close the PR
