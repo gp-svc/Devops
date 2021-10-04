@@ -1,0 +1,8 @@
+- spin up ec2 instance
+- choose t2micro free tier instance
+- choose amazon AMI
+- storage default 8 GB is enough
+- create security group with allow inbound traffic 80 and 22
+- enable public ip to get assigned
+- create key pair, and keep with you safe 
+- launch the ec2 instance

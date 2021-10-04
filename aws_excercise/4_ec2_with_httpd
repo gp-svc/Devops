@@ -1,0 +1,4 @@
+- use yum command to install httpd service
+- start the httpd
+- enable the httpd service
+- telnet localhost 80

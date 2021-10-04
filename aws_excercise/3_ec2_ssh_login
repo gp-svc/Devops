@@ -1,0 +1,4 @@
+use pem file or ppk file to login to server
+validate the storage
+validate the instance type
+validate the AMI details
