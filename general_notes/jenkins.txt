@@ -1,0 +1,13 @@
+Jenkins -
+- its a opensource tool
+- which will help to automate the process
+- create workflow
+- building the application
+    example - javac app.java
+- artifact the application
+- manage the version
+- plenty of plugins are available to automate the process
+- supports to built the infrastructure
+- its need right java version to start jenkins service
+- its support master slave concepts to manage more jobs
+- option to notify with email plugin

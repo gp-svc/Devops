@@ -1,0 +1,29 @@
+vagrant setup
+- its a tool distributed by hashicorp
+- its open source tool - free of license
+- its mainly used to provision infrastructure in any client - virtual box, vmware, aws, etc..
+- its heavily used in provisioning virtual box in real time use cases.
+- we can spin up multiple virtual box using the vagrant tool in quick manner
+- language is managed by hashicorp org
+- its ruby based code - but not required to learn ruby
+- it will support multiple platform - win, linux and mac
+- it will help in manage the virtualization in stander across to the team
+- its a free account, which we can access base image to built the application based on our custom requirement
+- we can configure following setup
+      cpu
+      network
+      port forward
+      storage
+      post deployment script
+      deployment
+- vagrant is a SDK (api) for virtual box or vmware which will help to provision the instance
+- vagrant commands
+vagrant global-status - get the status of vagrant environment in your local
+vagrant init centos/7 - init - will setup new environment for centos/7 - you can get the image from https://app.vagrantup.com/boxes/search
+vagrant up - it will start the vagrant
+vagrant status - status command of running or shutdown instance
+vagrant ssh - login to vagrant box based on the current vagrant directory
+vagrant reload - refresh the box
+vagrant reload -provision - refresh the box with re provision compulsory
+vagrant provision - refresh the box if code changes is there
+vagrant destroy - clean-up the environment - delete all the related files to virtual box

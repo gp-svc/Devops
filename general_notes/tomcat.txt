@@ -1,0 +1,15 @@
+Tomcat
+- its a webserver - middleware
+- its opensource - managed and release by apache
+- its supports only java application
+- it can deploy jar, war, ear files
+- have to understand the right java version to select right tomcat setup
+- tomcat depends on java version
+- support multile tomcat deployment in one server
+- its supports windows, linux and mac
+- directory structure
+ - apache-tomcat-10.0.6/
+  "webapps/" - deployment folder
+  "bin/" - have start-up and shutdown scripts
+  "logs/" - contains tomcat logs ,application access logs
+  "conf/" - tomcat configuration details
