@@ -1,0 +1,35 @@
+docker create -t -i fedora bash
+docker start -a -i dff32a272ad4c
+docker rename my_container my_new_container
+docker run -it ubuntu-ssh-k /bin/bash
+docker rm myfedora
+docker update --cpu-shares 512 -m 300M dff32a272ad4 happy_kare
+docker ps 
+docker logs 839f66a78983
+docker inspect --format '{{ .NetworkSettings.IPAddress }}' $(docker ps -q)
+Events, port, top, stats, diff 
+
+
+docker start starts a container so it is running.
+docker stop stops a running container.
+docker restart stops and starts a container.
+docker pause pauses a running container, "freezing" it in place.
+docker unpause will unpause a running container.
+docker wait blocks until running container stops.
+docker kill sends a SIGKILL to a running container.
+docker attach will connect to a running container.
+docker exec -i -t my-nginx-1 /bin/bash
+
+docker images : shows all images.
+docker import : creates an image from a tarball.
+docker build : creates image from Dockerfile.
+docker commit : creates image from a container, by default, the container being
+
+docker practice
+Install Docker
+Worked with Image
+Start Docker Container
+Persistance storage for Docker
+Run Whalesay Image
+Create Docker Image 
+Push Image in Docker Hub
