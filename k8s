@@ -1,0 +1,17 @@
+1) create an ingress policy to allow traffic from corp-data namespace on all the big-data namespace pods. Allow pods on big-data ns to accept requests only on ports 5678 and 1234
+ 
+ 2) Take etcd backup of master node and restore it <certs were given in question>
+ 
+ 3) create clusterrole, binding, sa. sa should only allow create of sts,ds,deploy on namespace test-ns
+ 
+ 4) upgrade master node and all it's components to v 1.24.2 from 1.24.1. Do not touch worker node. kubectl and kubelet also to 1.24.2
+ 
+ 5) make the node unschedulable and transfer all pods  to other node
+ 
+ 6) create a pvc of type 'csi-hostpath-sc' and mount it on a pod at mount path /test/mount
+ 
+ 7) create a sidecar container using image busybox to output logs of existing cotainer created in the pod legacy-app in namespace app-test1. use the command 'tail -f var/log/sample.log' 
+ 
+ 8) create an ingress for service 'hi' on path /hi to expose the pod on 5678 on name defined in service. Connectivity can be checked on <internal-IP>/hi. create a nodeport service to expose pod on NodePort also
+
+ 9) create a pod test1 in namespace test-ns. this pod should be running only on k8s-node01.
